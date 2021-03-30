@@ -66,4 +66,4 @@ app.get('/', (req, res) => {
     res.send('Homepage loaded');
 });
 
-app.listen(4200);
+app.listen(process.env.PORT || 4200);
